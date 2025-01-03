@@ -1,8 +1,8 @@
 provider "aws" {
-  region = var.region_1
+  region = "us-east-1"
 }
 
 provider "aws" {
   alias  = "second_region"
-  region = var.region_2
+  region = "us-west-2"
 }
